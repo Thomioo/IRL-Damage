@@ -17,10 +17,10 @@ def read_root():
     return PlainTextResponse("Connection Working", 200)
 
 @app.get("/damage")
-def take_damage(time: int | None = None):
+def take_damage(time: float | None = None):
     if time is None:
         return PlainTextResponse("No damage value entered", 200)
-    elif time < 0:
+    elif time < 0.0:
         return PlainTextResponse("Damage value cannot be negative", 400)
     else:
         ser.write(f"{time}\n".encode())

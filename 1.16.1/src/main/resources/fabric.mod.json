@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "irl-damage",
 	"version": "${version}",
-	"name": "IRL-Damage",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "IRL Damage",
+	"description": "Take the damage in real life",
 	"authors": [
-		"Me!"
+		"Tomesh"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -25,10 +25,7 @@
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.16.1",
-		"java": ">=8",
-		"fabric": "*"
+		"java": ">=8"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"suggests": {}
 }
