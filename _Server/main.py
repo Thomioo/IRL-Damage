@@ -39,4 +39,4 @@ def get_local_ip():
 
 if __name__ == "__main__":
     local_ip = get_local_ip()
-    uvicorn.run(app, host=local_ip, port=8000)
+    uvicorn.run(app, host="127.0.0.1", port=8000)

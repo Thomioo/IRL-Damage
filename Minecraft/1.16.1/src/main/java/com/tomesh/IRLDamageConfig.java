@@ -9,7 +9,7 @@ import com.google.gson.GsonBuilder;
 
 public class IRLDamageConfig {
     public static boolean enabled = true;
-    public static String url = "192.168.2.101";
+    public static String url = "127.0.0.1";
     public static int port = 8000;
     public static float minTime = 0.5f;
     public static float maxTime = 2.0f;
