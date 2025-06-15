@@ -1,0 +1,5 @@
+[2025-06-15 21:14:47] Damage taken: 15 (from 100 to 85)
+[2025-06-15 21:14:58] Damage taken: 85 (from 85 to 0)
+[2025-06-15 21:15:56] Damage taken: 100 (from 100 to 0)
+[2025-06-15 21:16:10] Damage taken: 100 (from 100 to 0)
+[2025-06-15 21:16:27] Damage taken: 100 (from 100 to 0)
