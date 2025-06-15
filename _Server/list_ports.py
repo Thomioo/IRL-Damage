@@ -1,0 +1,6 @@
+# This script lists all serial ports and their descriptions
+import serial.tools.list_ports
+
+ports = serial.tools.list_ports.comports()
+for port in ports:
+    print(f"{port.device}: {port.description}")
